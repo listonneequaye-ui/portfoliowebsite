@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jerry's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>JListon Designs</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+     <img src="assets/JListon logo.jpg" alt="JListon Designs Logo">
+    <h1>Jerry Neequaye</h1>
+    <p>Digital Media Specialist, UI Designer & Graphic Designer</p>
+    <button onclick="showMessage()">Welcome</button>
+    <p id="message"></p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I enjoy graphic design, photography, branding,
+    and creating digital experiences.</p>
+</section>
+
+<section id="work">
+    <h2>My Portfolio</h2>
+
+    <button onclick="showProjects('all')">All</button>
+    <button onclick="showProjects('design')">Design</button>
+    <button onclick="showProjects('photo')">Photography</button>
+
+    <div id="gallery"></div>
+    <p id="count"></p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p><b>Email:</b> listonneequaye@gmail.com</p>
+</section>
+<nav>
+        <a href="#about">About</a>
+        <a href="#work">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+<footer>
+    <p>Copyright 2026 @JListon Designs</p>
+    
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

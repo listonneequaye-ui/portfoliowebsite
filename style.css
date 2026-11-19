@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f8fa;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h2 {
+    color: #d85b9b;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: #dceef7;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    color: #d85b9b;
+}
+
+button {
+    background: #d85b9b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #26384d;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+#gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #26384d;
+    color: white;
+    padding: 20px;
+}
+
+@media(max-width: 650px) {
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
